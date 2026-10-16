@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCT360 Analytics Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="dash-header">
+    <a href="#" class="logo">CCT360 <span>Analytics</span></a>
+
+    <form class="search" role="search" action="#">
+      <label for="search-input" class="visually-hidden">Search</label>
+      <input type="search" id="search-input" placeholder="Search reports, users...">
+    </form>
+
+    <div class="user-profile">
+      <span class="badge">3 Alerts</span>
+      <span class="avatar" aria-hidden="true">AK</span>
+      <span class="user-name">Admin</span>
+    </div>
+  </header>
+
+  <div class="dash-wrapper">
+    <aside class="sidebar">
+      <nav aria-label="Dashboard navigation">
+        <ul class="side-nav">
+          <li><a href="#" class="active">Dashboard</a></li>
+          <li><a href="#">Analytics</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="logout">Logout</a>
+    </aside>
+
+    <main class="dash-content">
+      <h1>Dashboard Overview</h1>
+
+      <section class="stats-grid" aria-label="Key metrics">
+        <article class="stat-card">
+          <h2>Total Revenue</h2>
+          <p class="stat-value">$48,250</p>
+          <p class="stat-change up">+12% this month</p>
+        </article>
+        <article class="stat-card">
+          <h2>Active Users</h2>
+          <p class="stat-value">2,814</p>
+          <p class="stat-change up">+5% this month</p>
+        </article>
+        <article class="stat-card">
+          <h2>New Projects</h2>
+          <p class="stat-value">36</p>
+          <p class="stat-change up">+8 this week</p>
+        </article>
+        <article class="stat-card">
+          <h2>Bounce Rate</h2>
+          <p class="stat-value">41.2%</p>
+          <p class="stat-change down">-2.1% this month</p>
+        </article>
+      </section>
+
+      <section class="body-split">
+        <article class="panel data-table">
+          <h2>Recent Transactions</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Client</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#1042</td>
+                  <td>Riverbend Coffee</td>
+                  <td>Oct 14</td>
+                  <td>$2,400</td>
+                  <td><span class="status paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>#1041</td>
+                  <td>Northline Books</td>
+                  <td>Oct 13</td>
+                  <td>$1,150</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>#1040</td>
+                  <td>Maple Fitness</td>
+                  <td>Oct 12</td>
+                  <td>$3,800</td>
+                  <td><span class="status paid">Paid</span></td>
+                </tr>
+                <tr>
+                  <td>#1039</td>
+                  <td>Lakeshore Arts</td>
+                  <td>Oct 10</td>
+                  <td>$920</td>
+                  <td><span class="status failed">Failed</span></td>
+                </tr>
+                <tr>
+                  <td>#1038</td>
+                  <td>Studio Nine</td>
+                  <td>Oct 09</td>
+                  <td>$1,675</td>
+                  <td><span class="status paid">Paid</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <aside class="panel activity">
+          <h2>Recent Activity</h2>
+          <ul class="activity-feed">
+            <li>
+              <p><strong>Admin</strong> exported the monthly report.</p>
+              <time datetime="2026-10-15T09:12">Today, 9:12 AM</time>
+            </li>
+            <li>
+              <p><strong>Sara M.</strong> created project "Fall Campaign".</p>
+              <time datetime="2026-10-14T16:40">Yesterday, 4:40 PM</time>
+            </li>
+            <li>
+              <p><strong>System</strong> flagged a failed payment (#1039).</p>
+              <time datetime="2026-10-10T11:05">Oct 10, 11:05 AM</time>
+            </li>
+            <li>
+              <p><strong>James L.</strong> updated user permissions.</p>
+              <time datetime="2026-10-09T14:22">Oct 9, 2:22 PM</time>
+            </li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <footer class="dash-footer">
+    <p>&copy; 2026 CCT360 Analytics Portal - Midterm Exam Practice</p>
+  </footer>
+</body>
+</html>
